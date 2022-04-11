@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-style: normal;
+font-weight: 600;
+  background-color: 	##FFFAFA;	 
+  margin: 0 auto;
+}
+
+
+header {
+  background-color: #10B4E0;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  position: relative;
+}
+div#fbi{
+	position: relative;
+	top: -20px;
+	left: -650px;
+	transform: translateY(30%);
+	
+}
+.buttons{
+  position: relative;
+  top:0%;
+  right: -1700;
+  width: 120px;
+  transform: translateY(-180%);
+  border: 2px solid black;
+  color: #9DBFAF;
+display: flex;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid black;
+  border-right: none;
+  padding: 5px;
+  height: 50px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  background: #6EB1E0;
+  text-align: center;
+  color: black;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+nav{
+	padding-top: 30px;
+	background-color: #6EB1E0;
+	position: relative;
+}
+.menudropdown1{
+width:80%;
+height:100px;
+margin:0px auto;
+
+}
+
+.menudropdown1 ul{
+ padding:0px;
+}
+
+.menudropdown1 ul li{
+ float:left;
+ background-color:black;
+ color:white;
+ width:200px;
+ height:50px;
+ line-height:50px;
+ font-size:25px;
+ text-align:center;
+ list-style:none;
+ opacity:0.6;
+}
+
+.menudropdown1 ul li ul{
+ display:none;
+}
+
+.menudropdown1 ul li:hover > ul{
+ display:block;
+}
+
+.menudropdown1 ul li:hover{
+ background-color:#32CD32;
+ opacity:0.9;
+}
+
+.menudropdown1 ul li ul li{
+ position:relative;
+}
+
+.menudropdown1 ul li ul li ul{
+ position:absolute;
+ left:200px;
+ top:0px;
+}
+
+article{
+  float: left;
+  width: 20%;
+  height: 700px; 
+  background: #F5F5F5;
+  padding: 20px;
+}
+
+section {
+  float: left;
+  padding: 20px;
+  width: 60%;
+  background-color: #F5F5F5;
+  height: 700px; 
+}
+
+
+aside{
+	float: right;
+  width: 20%;
+  height: 700px; 
+  background: #F5F5F5;
+  padding: 20px;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  
+}
+
+
